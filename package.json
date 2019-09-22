@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/baltimorecounty/vanilla-js-boilerplate/issues"
   },
-  "homepage": "https://github.com/baltimorecounty/vanilla-js-boilerplate#readme"
+  "homepage": "https://github.com/baltimorecounty/vanilla-js-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-jest": "^24.9.0"
+  }
 }
