@@ -1,0 +1,1 @@
+{"version":3,"sources":["Index.scss"],"names":[],"mappings":"AAGA;EACE,YAJsB;EAKtB,OAJW","file":"Index.143ac65d.css","sourceRoot":"..\\src","sourcesContent":["$body-background-color: #333;\r\n$body-color: white;\r\n\r\nbody {\r\n  background: $body-background-color;\r\n  color: $body-color;\r\n}\r\n"]}

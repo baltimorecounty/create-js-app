@@ -1,3 +1,7 @@
-const sum = (x, y) => x + y;
+import "./Index.scss";
 
-export { sum };
+const Init = message => {
+  console.log(message);
+};
+
+Init("Welcome to my app.");
