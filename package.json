@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/baltimorecounty/vanilla-js-boilerplate.git"
   },
-  "author": "",
+  "author": "Baltimore County Developers",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/baltimorecounty/vanilla-js-boilerplate/issues"
