@@ -1,6 +1,13 @@
 import { getByText } from "@testing-library/dom";
 
-global.console = { log: jest.fn() };
+const createAppContainer = () => {
+  document.body.innerHTML = `
+    <div id="app">
+      <h1>My Awesome App</h1>
+      <button id="change-title" type="button">Change Page Title</button>
+    </div>
+  `;
+};
 
 beforeEach(() => {
   createAppContainer();
@@ -12,12 +19,7 @@ afterEach(() => {
   jest.resetModules();
 });
 
-const createAppContainer = () => {
-  document.body.innerHTML = `<div id="app">
-      <h1>My Awesome App</h1>
-      <button id="change-title" type="button">Change Page Title</button>
-    </div>`;
-};
+global.console = { log: jest.fn() };
 
 test("this test should be replaced with an actual jest test", () => {
   expect(console.log).toBeCalled();
