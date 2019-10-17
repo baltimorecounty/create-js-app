@@ -1,1 +1,1 @@
-# vanilla-js-boilerplate
+# Create JS App
